@@ -9,11 +9,14 @@ int main (){
 	string nome, end, tel;
 		
 	cout << "Digite o nome: ";
-	cin >> nome;
+	cin.ignore();
+	getline(cin, nome);
 	cout << "Digite o endereco: ";
-	cin >> end;
+	cin.ignore();
+	getline (cin, end);
 	cout << "Digite o telefone: ";
-	cin >> tel;
+	cin.ignore();
+	getline(cin,tel);
 	
 	cout << "Ola, " << nome  << " ! \n";
 	cout << "Voce mora em " << end << "\n";

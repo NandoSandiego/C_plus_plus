@@ -2,7 +2,7 @@
 using namespace std;
 
 
-int main (){
+int main(){
 	
 	string name;
 	cout << "Digite o seu nome: " ;

@@ -9,14 +9,14 @@ using namespace std;
 int main(){
 	
 	int numero;
-    float base10;
+    double base10;
 	
 	printf("Digite um numero: ");
 	scanf("%d",numero);
 	
 	base10 = log10(numero);
 	
-	printf("O log na base 10 e: %d",base10);
+	printf("O log na base 10 e: %f",base10);
 	
 	
 	return 0;

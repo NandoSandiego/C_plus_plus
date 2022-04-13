@@ -4,19 +4,21 @@
 using namespace std;
 
 
- 
- 
-int main(){
+int main (){
 	
 	int numero;
-    double base10;
+	float quadrado,raizq;
 	
 	printf("Digite um numero: ");
 	scanf("%d",&numero);
 	
-	base10 = log10(numero);
+	quadrado = numero * numero;
+	raizq = sqrt(numero);
 	
-	printf("O log na base 10 e: %f",base10);
+	printf("%.2f, %.2f",quadrado,raizq); 
+	
+	
+	
 	
 	
 	return 0;

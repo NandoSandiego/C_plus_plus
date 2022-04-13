@@ -9,15 +9,15 @@ int main(){
 	double logaritmo;
 	
 	printf("Digite o numero: ");
-	scanf("%d",numero);
+	scanf("%d",&numero);
 	printf("Digite a base: ");
-	scanf("%d", base);
+	scanf("%d", &base);
 	
 	
 	logaritmo = log(numero)/log(base);
 	
 	cout << logaritmo;
-	printf("%f",logaritmo);
+	printf("O logaritmo e: %f",logaritmo);
 	
 	
 	

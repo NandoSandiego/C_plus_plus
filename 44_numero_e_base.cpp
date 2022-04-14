@@ -16,7 +16,7 @@ int main(){
 	
 	logaritmo = log(numero)/log(base);
 	
-	cout << logaritmo;
+	//cout << logaritmo;
 	printf("O logaritmo e: %f",logaritmo);
 	
 	

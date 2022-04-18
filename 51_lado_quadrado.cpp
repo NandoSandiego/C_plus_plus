@@ -15,7 +15,7 @@ int main (){
 	
 	perimetro = (float) 4 * lado;
 	area = pow(lado,2);
-	diagonal = sqrt( area + area);
+	diagonal = lado * sqrt(2);
 	
 	printf("-------------------- \n");
 	printf("Perimetro: %.2f \n", perimetro);

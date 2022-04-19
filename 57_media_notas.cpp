@@ -15,7 +15,7 @@ int main(){
 	media = (nota_1 + nota_2)/2;
 	media_arr = floor(media);
 	
-	printf("Sua media e %.2f \n",media);
+	printf("Sua media truncada e %.2f \n",media);
 	printf("Sua media arrendondada: %.2f",media_arr);
 	
 	

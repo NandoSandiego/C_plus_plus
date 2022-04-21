@@ -14,7 +14,7 @@ int main (){
 	
 	ene_termo =  pri_termo * pow(razao , 4) ;
 	
-	printf("%.2f", ene_termo);
+	printf("O quinto termo e %.2f", ene_termo);
 	
 	
 	

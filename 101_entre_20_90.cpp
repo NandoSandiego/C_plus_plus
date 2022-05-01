@@ -10,6 +10,8 @@ int main (){
 	
 	if ( (numero>20) && (numero<90)  ){
 		printf("O numero esta entre 20 e 90");
+	}else{
+		printf("O numero NAO esta entre 20 e 90");
 	}
 	
 	

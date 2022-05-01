@@ -13,6 +13,8 @@ int main(){
 	
 	if(mc %4 == 0 ){
 		printf("%d e MULTIPLO de 4", mc);
+	}else{
+		printf("%d NAO E MULTIPLO de 4", mc);
 	}
 	
 	

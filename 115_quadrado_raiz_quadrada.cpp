@@ -17,8 +17,17 @@ int main(){
 			raiz_q = sqrt(num_b);
 			
 			printf("---------------------- \n");
-			printf("Quadrado: %.2f",quadrado);
-			printf("Raiz quadrada: %.2f", raiz_q);
+			printf("Quadrado: %.2f \n",quadrado);
+			printf("Raiz quadrada: %.2f \n", raiz_q);
+		
+		}else{
+			quadrado = pow(num_b,2);
+			raiz_q = sqrt(num_a);
+			
+			printf("---------------------- \n");
+			printf("Quadrado: %.2f \n",quadrado);
+			printf("Raiz quadrada: %.2f \n", raiz_q);		
+			
 		}
 	
 	

@@ -21,7 +21,7 @@ int main (){
 		maior = num_c;
 	}
 	
-	printf("%d",maior);
+	printf("O maior numero digitado e: %d",maior);
 	
 	
 	

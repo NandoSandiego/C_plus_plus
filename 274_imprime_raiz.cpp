@@ -1,28 +1,31 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 int main (){
 	
-	int num,cont = 1, raiz;
+	int num, raiz;
 	
-	printf("Digite um numero: ");
-	scanf("%d", &num);
+
 	
-	cont++;
-	
-	while(cont <= 10 ){
-		
-		cont++;	
-		
-		if(num < 0){
-			printf("Numero negativo \n");
-		}
+	for (int i = 1; i <= 10; i++){
 		
 		printf("Digite um numero: ");
 		scanf("%d", &num);
 		
+		while(num <= 0 ){
+			printf("Digite um numero:");
+			scanf("%d", &num);
+		}
 		
+		raiz = pow(num,2);
+		
+		printf("Raiz quadrada: %.2f \n", raiz);
+	
+				
 	}
+			
+	
 	
 	
 	return EXIT_SUCCESS;

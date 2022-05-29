@@ -32,8 +32,6 @@ int main (){
 			cout << "Saldo POSITIVO \n";
 		}
 		
-		system("cls");
-		
 		qtd_conta ++;
 		tot_clientes ++;
 		saldo_tot += saldo;
@@ -41,7 +39,7 @@ int main (){
 		
 	}while(num_conta != -999 || num_conta >= 10000 );
 	
-		
+		system("cls");
 		
 		cout << "======================== \n";
 		cout << "Total negativados: " << tot_neg << " \n";

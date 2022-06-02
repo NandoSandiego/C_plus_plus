@@ -19,6 +19,16 @@ int main (){
 		printf("num[%d] = %d \n", i, num[i]);
 	}
 	
+	printf("Sao multiplos de 6: \n");
+	
+	for(int i = 0; i < 8; i++ ){
+		
+		if(num[i] %6 == 0){
+			printf(" vet[%d] = %d \n", i, num[i] );
+		}
+		
+	}
+	
 	
 	return EXIT_SUCCESS;
 }

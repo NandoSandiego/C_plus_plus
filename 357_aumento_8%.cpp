@@ -6,7 +6,7 @@ int main(){
 	char nome[50][20];
 	float salario[20],novo_salario[20];
 	
-	for(int i = 0; i< 2; i++){
+	for(int i = 0; i< 19; i++){
 		
 		printf("Digite o nome do funcionario: ");
 		scanf("%s", nome[i]);
@@ -17,7 +17,7 @@ int main(){
 	}
 	system("cls");
 	
-	for(int i = 0; i < 2; i++){
+	for(int i = 0; i < 19; i++){
 		novo_salario[i] = salario[i] + salario[i] * 0.08;
 		
 		printf("--------------------------\n");

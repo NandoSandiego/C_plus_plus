@@ -38,10 +38,12 @@ int main(){
 			}else{
 				
 				cout << "Codigo de mesa invalido \n";
-				cout << "Entre com o codigo (100 a 129), ou 0 pra terminar";
-				cin >> codigo;
-				
 			}
+			
+			cout << "Entre com o codigo (100 a 129), ou 0 pra terminar";
+			cin >> codigo;
+				
+			
 		}
 		
 		if(lugares == 0){

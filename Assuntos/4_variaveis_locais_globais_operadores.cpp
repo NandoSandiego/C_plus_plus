@@ -25,9 +25,10 @@ int main(){
 	 n1 = 11, n2 = 3, n3 = 5, n4 = 2, res;  
 	 
 	 res = n1 + n2 + n3 + n4;
-	 cout << "A soma: " << res;
+	 cout << "A soma: " << res << "\n";
 	 
 	 res = (n1 + n2 - (n3 *n4)/n1) % 2 ;  
+	 cout << "O resultado: " << res;
 	
 	
 	return 0;

@@ -18,9 +18,9 @@ int main(){
 	
 	med = (num1 + num2)/2;
 	
-	//med > 7 ? res = "Aprovado": res = "reprovado" ;
+	med > 7 ? res = "Aprovado": res = "reprovado" ;
 	
-	 res = (med >=7) ? "Aprovado" : "Reprovado"; 
+	// res = (med >=7) ? "Aprovado" : "Reprovado"; 
 	
 	cout <<"A media e: "<< med << "\n" <<"O aluno esta " << res;
 	

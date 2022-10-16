@@ -3,8 +3,8 @@ using namespace std;
 
 int main(){
 	
-	int num = 10;
-	char opc = 's';
+	int num;
+	
 	
 	/*
 		if(teste logico){

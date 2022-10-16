@@ -26,10 +26,14 @@ int main(){
 	bool vivo = true;//true or false
 	string texto = "Fernando";
 	
-	cout << vidas << "\n";
+	cout << "vidas: "<< vidas << "\n";
 	cout << letra << "\n";
 	cout << letras << "\n";
 	cout << texto << "\n";
+	
+	cout << "Digite o numero de vidas: ";
+	cin >> vidas; //entrada de dados.
+	cout << "vidas: " << vidas << "\n";
 	
 	
 	return 0;

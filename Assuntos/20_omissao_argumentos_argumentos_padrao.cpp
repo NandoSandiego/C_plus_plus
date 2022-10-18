@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void printar(string txt = "Ola ");
+void printar(string txt = "Ola "); // possibilita a omissão de argumentos
 
 
 int main(){

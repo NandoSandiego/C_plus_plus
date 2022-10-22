@@ -1,5 +1,6 @@
 /*
 	Manipulando ponteiros através de Arrays
+	Quando eu tenho um vetor eu nao preciso especificar o enereço
 */
 
 

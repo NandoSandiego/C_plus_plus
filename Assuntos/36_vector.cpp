@@ -67,6 +67,7 @@ int main(){
 	while(!num1.empty()){ // Apaga o vector
 		num1.pop_back();
 	}	
+	
 	cout << "novo tamanho de num1: " << num1.size();
 	
 	

@@ -32,12 +32,15 @@ int main(){
 	
 	
 	//cout << *it << endl ;
-	cout << *next(it,1) << endl; // Vai para o elemento de indice 3
+	//cout << *next(it,1) << endl; // Vai para o elemento de indice 3
 	//cout << *next(it,2)<< endl;
 	
 	// mostrar todos os elementos
 	
-	for(it = produtos.begin())
+	for(it = produtos.begin(); it!=produtos.end(); it++){
+			
+			cout << *it << endl;
+	}
 	
 	
 	

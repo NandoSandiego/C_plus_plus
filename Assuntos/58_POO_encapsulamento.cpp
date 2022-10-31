@@ -10,13 +10,13 @@ using namespace std;
 class Carro{
 	
 	
-	
 	private:
 		int velMax;
 		
 	void setVelMax(int vm){
 		this -> velMax = vm;
 	}
+	
 	public:		
 		int potencia;
 		const char* nome;

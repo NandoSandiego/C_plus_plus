@@ -20,7 +20,7 @@ int main(){
     int idade;
     char nome[50];
     char n,s;
-/*
+
     cout << "Nome: ";
     //cin.get(nome,50);
     cin.getline(nome,50);
@@ -30,7 +30,7 @@ int main(){
     cin>> idade;
 
     cout << nome << " Tamanho: " << cin.gcount() << endl;
-*/
+
     n = cin.get();
     cin.ignore(80, ' '); // entre aspas coloca o que quer ignorar
 

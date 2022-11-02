@@ -1,6 +1,6 @@
-
+//mingw-setup.exe
 #include <iostream>
-#include <locale.h> // biblioteca para acentuação <locale.h> ou <locale>
+#include <locale> // biblioteca para acentuação <locale.h> ou <locale>
 
 using namespace std;
 
@@ -9,7 +9,8 @@ int main(){
 
 	setlocale(LC_ALL,"portuguese");
 	cout << "É possivível escrever maçã em C++ \n";
-	
-	
+
+
 	return 0;
 }
+

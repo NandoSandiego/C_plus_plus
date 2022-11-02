@@ -14,7 +14,7 @@ cout << "FIm do programa " << endl;
 int main(){
 
     const char* p;
-    _Exit(EXIT_SUCCESS);
+
 
     for(int i = 0; i < 10; i++){
 
@@ -28,7 +28,7 @@ int main(){
         }
 
     }
-
+    _Exit(EXIT_SUCCESS);
     cout << endl;
 
 /*    p = getenv('PATH');

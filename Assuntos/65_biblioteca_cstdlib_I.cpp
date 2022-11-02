@@ -69,7 +69,7 @@ int main(){
     int  *vetor;// ou vetor[10];
 
     vetor = (int*)calloc(tam,sizeof(int));
-    //vetor = (int*)malloc(sizeof(int));
+    //vetor = (int*)malloc(tam* sizeof(int));
 
     for(int i = 0; i < tam ; i++){
         vetor[i] = rand()%100;

@@ -112,7 +112,7 @@ int main(){
 	 	cout << "Palavra NAO encontrada " << encontrado << endl;
 	 }
 	 
-	 
+	  
 	
 	
 

@@ -11,6 +11,10 @@ strcspn -> localiza dentro de uma string uma chave
 
 strrchr -> localiza o ultimo elemento pesquisado dentro da string
 
+strtok -> divide a string em determinados indicadores que podemos informar
+        divida a string sempre que encontrar determinado divisor
+
+strlen -> retorna o tamanho de uma string
 */
 
 #include <iostream>
@@ -21,13 +25,15 @@ using namespace std;
 int main(){
 
     char * txt1;
-    char txt2[]="Apendendo C++ no youtube";
+    char txt2[]="Apendendo, C++ no youtube";
     char pesquisa ='C';
     char chave[]= "du+";//pesquisa algum desses elementos
 
     int i;
 
     char * e;
+
+    char * t;
 
     //memchr(onde pesquisar, o que pesquisar,tamanho da pesquisa)
     txt1 = (char*)memchr(txt2,pesquisa,strlen(txt2));
@@ -46,8 +52,22 @@ int main(){
 
     e = strrchr(txt2,'e');
 
-    cout << "Pos: " << e - txt1 << endl;
+    cout << "Pos: " << e - txt1 << endl << endl;
 
+    //dividindo string
+    t = strtok(txt2," ,-");
+
+    while(t != NULL){
+        cout << t << endl;
+        t = strtok(NULL, " ,-");
+    }
+
+    cout <<"\n\n";
+    //retornando o tamanho de uma string
+
+       int tam=strlen(txt2) ;
+
+       cout << tam << endl;
 
 
    return 0;
